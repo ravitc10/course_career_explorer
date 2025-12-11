@@ -121,10 +121,19 @@ elif st.session_state.page == "page_3":
         """
         Option 3:
         If there is any other way that you would like to describe the similarity between the 
-        courses you took, please feel free to create or write this type of representation.
+        courses you took, please feel free to create or write this type of representation. The
+        student below chose to dance their Amherst journey, marking their qualitative development 
+        with long, suspended movements and their quantitative development with sharp movements. They
+        chose the songs "the Visitors" by ABBA to represent their development in new fields, like German,
+        dance, and linguistics.
         """
     )
-
+    
+    video_path = Path(__file__).parent / "dance_representation.mp4"
+    if video_path.exists():
+        st.video(str(video_path))
+    else:
+        st.error(f"Video file not found at: {video_path}")
     # Continue button
     st.markdown("---")
     if st.button("Continue"):
