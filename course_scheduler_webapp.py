@@ -181,7 +181,9 @@ elif st.session_state.page == "page_4":
     st.markdown(
         """
         For any option: you can do whatever you feel like provides the best representation of 
-        skillset within your curricular representation.
+        skillset within your curricular representation. The student who created a dance representation decided
+        to write about the skills represented in by different sections of the dance including how the dance itself mirrors 
+        instances of creative thinking throughout her curricular experiences. 
         """
     )
 
