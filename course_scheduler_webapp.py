@@ -233,12 +233,13 @@ elif st.session_state.page == "page_6":
     )
 
               
-     st.markdown(
-          """
-        **Padlet link for Module 1:**  
-        https://padlet.com/ravitcham/making-our-own-visual-open-curriculum-xqv4hg4caejkhvdm
-        """
-    )
+st.markdown(
+    """
+    **Padlet link for Module 1:**  
+    https://padlet.com/ravitcham/making-our-own-visual-open-curriculum-xqv4hg4caejkhvdm
+    """
+    
+)
 
 
    )
