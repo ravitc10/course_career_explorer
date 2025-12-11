@@ -241,8 +241,6 @@ st.markdown(
     
 )
 
-
-   )
     st.markdown("---")
     if st.button("Continue"):
         go_to_page("page_7")
