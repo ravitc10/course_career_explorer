@@ -57,7 +57,7 @@ elif st.session_state.page == "page_2":
     )
 
     # Intro video (inserted MP4) – looks for introduction.mp4 in the same folder as this script
-    video_path = Path(__file__).parent / "with_subtitles.mp4"
+    video_path = Path(__file__).parent / "with_subtitles (1).mp4"
     if video_path.exists():
         st.video(str(video_path))
     else:
