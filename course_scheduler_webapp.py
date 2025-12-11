@@ -251,11 +251,11 @@ elif st.session_state.page == "page_7":
 
     st.title("Module Two: Part One")
 
-    # video_path = Path(__file__).parent / "with_subtitles (1).mp4"
-    # if video_path.exists():
-        #st.video(str(video_path))
-    #else:
-        #st.error(f"Video file not found at: {video_path}")
+    video_path = Path(__file__).parent / "resized.mp4"
+    if video_path.exists():
+        st.video(str(video_path))
+    else:
+        st.error(f"Video file not found at: {video_path}")
 
     st.markdown("---")
     if st.button("Continue"):
